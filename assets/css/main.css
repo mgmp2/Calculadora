@@ -6,3 +6,8 @@
   box-sizing: border-box;
   font-family: 'Khula', sans-serif;
 }
+
+/*Utilities*/
+.gray-dark {
+    background-color: #3b44b;
+}
