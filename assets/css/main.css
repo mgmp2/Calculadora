@@ -22,7 +22,7 @@ html, body, section {
     background-color: #bac7b6;
 }
 .gold {
-    border-image-source: #f0c50f;
+    background-color:  #f0c50f;
 }
 
 input[type="button"],
@@ -32,7 +32,7 @@ button {
     width: 19%;
     height: 21%;
     margin: 2%;
-    color: #fff;
+    color: #000;
     font-weight: 800;
     font-size: 15px;
 }
@@ -62,7 +62,7 @@ input:focus {
     height: 200px;
     padding: 9% 7% 40% 7%;
     border-bottom-left-radius: 44px;
-    border-top-right-radius: 44px;
+    border-bottom-right-radius: 44px;
     text-align: center;
 }
 
@@ -81,7 +81,7 @@ input:focus {
     font-weight: 800;
     font-size: 30px;
     text-align: right;
-    color: #fff;
+    color: #000;
 }
 hr {
     background: #fff;
