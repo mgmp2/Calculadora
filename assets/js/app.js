@@ -11,7 +11,6 @@
                 });
                 $(e.target).removeClass('shadow-pulse');
             })
-
             var eachNumber      = $(this).val();
             var currentScreen   = screenVal.val();
             currentScreen      += eachNumber;

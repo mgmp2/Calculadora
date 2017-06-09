@@ -8,14 +8,11 @@ html, body, section {
     font-family: 'Khula', sans-serif;
     background-color: ghostwhite;
 }
+h1 {
+    text-align: center;
+}
 /*Utilities*/
 
-.gray-dark {
-    background-color: #3b444b;
-}
-.gray-medium {
-    background-color: #62676b;
-}
 .gray-green {
     background-color: darkslategray;
 }
@@ -33,11 +30,11 @@ button {
     width: 19%;
     height: 21%;
     margin: 2%;
-    color: #000;
+    color: #fff;
     font-weight: 800;
     font-size: 15px;
     box-shadow: 1px 7px 3px #888888;
-    background: linear-gradient( #000,#fff)
+    /*background: linear-gradient( #000,#fff)*/
 }
 button:focus,
 input:focus {
@@ -100,7 +97,6 @@ hr {
         box-shadow: 0px 0px 5px 0px hsla(0, 0%, 0%, 0);
     }
 }
-
 .shadow-pulse {
     animation-name: shadowPulse;
     animation-duration: 0.2s;
