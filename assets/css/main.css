@@ -9,6 +9,7 @@ html, body, section {
     background-color: ghostwhite;
 }
 /*Utilities*/
+
 .gray-dark {
     background-color: #3b444b;
 }
@@ -35,6 +36,8 @@ button {
     color: #000;
     font-weight: 800;
     font-size: 15px;
+    box-shadow: 1px 7px 3px #888888;
+    background: linear-gradient( #000,#fff)
 }
 button:focus,
 input:focus {
@@ -87,4 +90,20 @@ hr {
     background: #fff;
     height: 2px;
     border-style: none;
+}
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0px 0px 10px 0px hsla(0, 0%, 0%, 1);
+    }
+
+    100% {
+        box-shadow: 0px 0px 5px 0px hsla(0, 0%, 0%, 0);
+    }
+}
+
+.shadow-pulse {
+    animation-name: shadowPulse;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
 }
